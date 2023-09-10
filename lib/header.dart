@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MiddleWidgets extends StatefulWidget {
-  const MiddleWidgets({super.key});
+class Header extends StatefulWidget {
+  const Header({super.key});
 
   @override
-  State<MiddleWidgets> createState() => _MiddleWidgetsState();
+  State<Header> createState() => _HeaderState();
 }
 
-class _MiddleWidgetsState extends State<MiddleWidgets> {
+class _HeaderState extends State<Header> {
   Widget _firstRow() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
